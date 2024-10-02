@@ -86,6 +86,8 @@ namespace DOISM
             ofd.ShowDialog();
 
             // Read all the json data
+            if (string.IsNullOrEmpty(ofd.FileName))
+                return;
             string jsonData = File.ReadAllText(ofd.FileName);
 
             // Find 2nd occurance of '[' to determine AHS end

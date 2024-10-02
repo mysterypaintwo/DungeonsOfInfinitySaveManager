@@ -1,2 +1,2 @@
-# DungeonsOfInfinitySaveEditor
-A community, fan-made save editor for Dungeons of Infinity
+# DungeonsOfInfinitySaveManager
+A community, fan-made save manager for Dungeons of Infinity
